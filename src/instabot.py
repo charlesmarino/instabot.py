@@ -214,7 +214,7 @@ class InstaBot:
             info = self.s.get(user_id_url)
 
             # prevent error if 'Account of user was deleted or link is invalid
-            from json import JSONDecodeError
+            from simplejson import JSONDecodeError
             try:
                 all_data = json.loads(info.text)
             except JSONDecodeError as e:
