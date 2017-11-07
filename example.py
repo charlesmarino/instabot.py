@@ -38,7 +38,7 @@ def run_bot():
                         "very glorious", "adorable", "excellent",
                         "amazing"], [".", "..", "...", "!","!!",
                                     "!!!"]],
-        tag_list=['bitcoin', 'cryptocurrency', 'newyork', 'eastvillage', 'eth'],
+        tag_list=['dog','bitcoin', 'cryptocurrency', 'newyork', 'eastvillage', 'eth'],
         tag_blacklist=['ico'],
         user_blacklist={'hellokitty':'', 'hellokitty3':''},
         max_like_for_one_tag = 5,
