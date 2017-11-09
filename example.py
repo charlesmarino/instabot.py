@@ -69,7 +69,7 @@ def run_bot():
     #time.sleep(30)
 
     if mode == 0:
-        bot.new_auto_mod()
+        bot.auto_mod()
 
     elif mode == 1:
         check_status(bot)
