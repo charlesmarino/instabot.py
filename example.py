@@ -47,6 +47,7 @@ def run_bot():
         log_mod = 0,
         proxy=''
     )
+    bot.auto_mod()
 
     #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
     #print("## MODE 1 = MODIFIED MODE BY KEMONG")
@@ -62,8 +63,6 @@ def run_bot():
     # DON'T USE MODE 5 FOR A LONG PERIOD. YOU RISK YOUR ACCOUNT FROM GETTING BANNED
     ## USE MODE 5 IN BURST MODE, USE IT TO UNFOLLOW PEOPLE AS MANY AS YOU WANT IN SHORT TIME PERIOD
 
-  
-        bot.auto_mod()
 
 
 if __name__ == '__main__':
